@@ -2,17 +2,9 @@ title: La mobilité en commun(s)
 email: comobi@beta.gouv.fr
 logo: images/logo-comobi-sfb
 
-territoires:
-  - nom: "Station de ski Valberg"
-    adresse: "http://azur.comobi.fr"
-  - nom: "Association OTEMA SMA"
-    adresse: "http://tarn.comobi.fr"
-
 sass:
   sass_dir: _sass
   style: compressed
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
