@@ -78,8 +78,14 @@ https://docs.google.com/spreadsheets/d/1LtRgQlsF-_oz6Us3AtpdNK-0bN0de5iV1Rug09F5
 *note 2 : la gestion des données est amenée à changer*
 
 ## 5. (optionnel) Créer un tableur avec une liste de lieux précis <a name="localisation"></a>
+Dans le formulaire de recherche vous pouvez ajouter des noms de lieux qui ont du sens et une utilité pour votre contexte.
+Pour cela : 
+- copier le format de [ce tableau](https://docs.google.com/spreadsheets/d/19wFbYCz6PLKaUmnDgCYPOpj5xfuYBaBTYh1QT1pK90w/edit#gid=0) dans un nouveau fichier
+- ajouter l'identifiant du fichier https://docs.google.com/spreadsheets/d/<IDENTIDIANT>/edit#gid=0 dans le fichier _config.yml pour l'attribut *liste_noms_locaux_lieux*
 
 # Customiser son instance
+Grâce au fichier de configuration *_config.yml* vous pouvez customiser différents éléments du site.
+Copiez le fichier [_config.example.xml](https://github.com/betagouv/neutre.comobi.fr/blob/main/_config.example.yml) en remplaçant le fichier *_config.yml* de votre dépôt.
 
 # Mettre à jour son instance
 ## Que se passe-t-il quand des fichiers sont modifiés sur la branche **master** ? <a name="google_workflow"></a>
